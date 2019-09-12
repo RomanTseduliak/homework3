@@ -22,8 +22,8 @@ body {
   height: 100vh;
   padding-top: 80px;
 }
-#welcome{
-  /*background-color: lightgreen;*/
+/*#welcome{
+  /*background-color: lightgreen;
 }
 #Сорти кави{
   background-color: lightblue;
@@ -36,10 +36,11 @@ body {
 }
 #Ароматні рецепти{
   background-color: lightslategray;
-}
+}*/
 .header{
   height: 95px;
   width: 80%;
+  
   position: fixed;
   display: flex;
   padding: 0;
@@ -81,6 +82,9 @@ body {
   text-shadow: 0 2px 2px black;
   text-decoration: none;
   text-transform: uppercase;
+}
+.menu-link :hover {
+  color: goldenrod;
 }
 h2 {
     border-radius: 1px solid rgb(241, 216, 216);
